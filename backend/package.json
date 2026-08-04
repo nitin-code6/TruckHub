@@ -1,0 +1,28 @@
+{
+  "name": "truckhub-backend",
+  "version": "1.0.0",
+  "description": "TruckHub - Intelligent B2B Freight Logistics & Truck Optimization Platform",
+  "license": "ISC",
+  "author": "Nitin Kumar <nitbit710@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.20.4",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
